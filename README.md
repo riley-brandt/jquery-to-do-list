@@ -3,7 +3,7 @@
 A simple To Do List application I coded for my Front-end Web Developer Certificate courses at the University of Calgary.
 
 ## Screenshot
-![](/img/screenshot-crop-01.png)
+![](./img/screenshot-crop-01.png)
 
 ## Live Demo
 [Try the application]()
