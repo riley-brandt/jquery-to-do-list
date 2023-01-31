@@ -1,0 +1,147 @@
+/* ASSIGNMENT 3 - CSS STYLES */
+
+/* ======= GLOBAL STYLES ======= */
+
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+
+* {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+h1 {
+    font: 'Open Sans';
+    font-size: 2.6em;
+}
+
+/* h2 {
+    font-size: 16pt;
+} */
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0.5em;
+    margin: 5px;
+    background-color: #eeeeee;
+}
+
+li:hover {
+    background-color: #e3e3e3;
+}
+
+img{
+    border: none;
+    padding: 1px 5px 1px 5px;
+    height: 22px;
+    vertical-align: bottom;
+
+}
+
+/* ======= ID STYLES ======= */
+
+#body-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#content-container {
+    margin-top: 8em;
+    min-width: 420px;
+    width:auto;
+}
+
+#heading {
+    background-color: #2a5eae;
+    color: white;
+    padding: 2em;
+    border-radius: 1em 1em 0 0;
+    line-height: 75%;
+    height: 12em;
+    vertical-align: bottom;
+}
+
+#form-box {
+    padding: 2em;
+    background-color: #4182de;
+    width: auto;
+}
+
+#todo-input-box {
+    width: 70%;
+}
+
+#submit-btn{
+    border: none;
+    width: 20%;
+    height: 32px;
+    text-decoration: none;
+}
+
+#submit-btn:hover {
+    color: #2f9f6a;
+    background-color: #8feea5;
+}
+
+#task-list-container {
+    min-height: 300px;
+    height: auto;
+    background-color: white;
+    padding: 1em;
+}
+
+#footer-container{
+    height: 75px;
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    background-color: #99beed;
+    border-radius: 0 0 1em 1em;
+}
+
+/* ======= CLASS STYLES ======= */
+
+.done-btn {
+    margin-right: 10px;
+    background-color: #8feea5;
+}
+
+.done-btn:hover {
+    background-color: #29ed56;
+}
+
+.done-btn-complete{
+    background-color: #8feea5;
+}
+
+.completed-task {
+    text-decoration-line: line-through;
+    background-color: #8feea5;
+}
+
+.delete-btn {
+    float: right;
+}
+
+.delete-btn:hover {
+    background-color: #f26157;
+}
+
+.edit-btn {
+    float: right;
+}
+
+.edit-btn:hover {
+    background-color: #f6ef77;
+}
